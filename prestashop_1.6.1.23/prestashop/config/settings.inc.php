@@ -1,8 +1,8 @@
 <?php
 define('_DB_SERVER_', 'localhost');
 define('_DB_NAME_', 'prestashop_docker');
-define('_DB_USER_', 'admin');
-define('_DB_PASSWD_', 'Desarr_587');
+define('_DB_USER_', 'root');
+define('_DB_PASSWD_', '1234');
 define('_DB_PREFIX_', 'ps_');
 define('_MYSQL_ENGINE_', 'InnoDB');
 define('_PS_CACHING_SYSTEM_', 'CacheMemcache');
