@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 
 
 CREATE DATABASE IF NOT EXISTS prestashop_docker;
-
+USE prestashop_docker;
 
 --
 -- Database: `prestashop_docker`
@@ -9830,7 +9830,7 @@ CREATE TABLE `ps_shop_url` (
 --
 
 INSERT INTO `ps_shop_url` (`id_shop_url`, `id_shop`, `domain`, `domain_ssl`, `physical_uri`, `virtual_uri`, `main`, `active`) VALUES
-(1, 1, 'localhost', 'localhost', '/prestashop_docker/prestashop_1.6.1.23/prestashop/', '', 1, 1);
+(1, 1, 'localhost', 'localhost', '/prestashop_docker.git/prestashop_1.6.1.23/prestashop/', '', 1, 1);
 
 -- --------------------------------------------------------
 
